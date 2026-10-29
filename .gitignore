@@ -1,0 +1,12 @@
+# 1. Ignorar el respaldo de SQL Server (.bak)
+sql/*.bak
+*.bak
+
+# 2. Ignorar archivos temporales y basura de Linux
+*~
+.directory
+.Trash-*
+
+# 3. Ignorar carpetas de editores (si abres con VS Code o DataGrip)
+.vscode/
+.idea/
